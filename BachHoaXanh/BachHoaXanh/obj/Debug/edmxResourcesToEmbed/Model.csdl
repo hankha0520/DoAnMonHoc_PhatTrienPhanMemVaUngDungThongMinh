@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhatTrienBachHoaXanhModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PhatTrienBachHoaXanhEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetTotal" ReturnType="Collection(PhatTrienBachHoaXanhModel.GetTotal_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetTotal_Result">
+    <Property Type="Int32" Name="Năm" Nullable="true" />
+    <Property Type="Int32" Name="Tháng" Nullable="true" />
+    <Property Type="Double" Name="Giá_trị" Nullable="true" />
+  </ComplexType>
+</Schema>

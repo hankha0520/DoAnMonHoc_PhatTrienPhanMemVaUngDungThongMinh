@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PhatTrienBachHoaXanhModelStoreContainer" CdmEntityContainer="PhatTrienBachHoaXanhEntities">
+    <FunctionImportMapping FunctionImportName="GetTotal" FunctionName="PhatTrienBachHoaXanhModel.Store.GetTotal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PhatTrienBachHoaXanhModel.GetTotal_Result">
+          <ScalarProperty Name="Năm" ColumnName="Năm" />
+          <ScalarProperty Name="Tháng" ColumnName="Tháng" />
+          <ScalarProperty Name="Giá_trị" ColumnName="Giá trị" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
